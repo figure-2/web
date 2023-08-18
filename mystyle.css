@@ -1,0 +1,51 @@
+h3 {
+    color: green;
+    background-color: aqua;
+}
+
+
+p{
+    color: pink;
+    font-family: 'Gochi Hand';
+}
+
+#here {
+    color: gold;
+    background-image: url()
+}
+
+.hello{
+    color: purple;
+}
+
+p.center{
+    text-align: center;
+}
+
+p#size {
+    font-size: 50px;
+}
+
+ul.english > li{
+    color: royalblue;
+}
+/* 자식 관게는 꺽세(>)로 표현한다 */
+
+ul.korean > li{
+    color: gray;
+}
+
+.korean{
+    /* border-width: 2px;
+    border-style: dashed;
+    border-color: bisque; */
+    border: 5px dashed bisque;
+    border-radius: 5px;
+}
+
+.english{
+    /* margin-top: 50px; */
+    margin: 25px 50px 75px 100px;
+    /* 방향 순서는 시계방향으로 */
+}
+
